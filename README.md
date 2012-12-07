@@ -8,6 +8,7 @@ Download and extract to Sublime Text 2 Packages folder:
 
 ### Usage
  * Using context menu
+ * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Alloy`
  * `ctrl+a+i` Run iPhone Simulator
  * `ctrl+a+a` Run Android Emulator
  * `ctrl+a+m` Run MobileWeb
