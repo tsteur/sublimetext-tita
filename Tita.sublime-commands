@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Alloy - Run iPhone Simulator", "command": "tita", "args": {"device": "iphone"} 
+    },
+    {
+        "caption": "Alloy - Run Android Emulator", "command": "tita", "args": {"device": "android"} 
+    },
+    {
+        "caption": "Alloy - Run Mobile Web", "command": "tita", "args": {"device": "mobileweb"} 
+    },
+    {
+        "caption": "Alloy - Generate", "command": "titagenerate" 
+    }
+]
