@@ -6,6 +6,10 @@ Only tested on MacOSX so far.
 Download and extract to Sublime Text 2 Packages folder:
  * Mac OS X: `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
 
+You need Titanium CLI + Alloy:
+ * https://github.com/appcelerator/titanium
+ * https://github.com/appcelerator/alloy
+
 ### Usage
  * Using context menu
  * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Alloy`
@@ -18,6 +22,7 @@ Download and extract to Sublime Text 2 Packages folder:
  * Set Android SDK Environment Variable
  * Build MobileWeb (already performs a compile)
  * Run on device
+ * Add Titanium-Code-Processor
 
 ### Licence
 Copyright (c) 2012 Thomas Steur
