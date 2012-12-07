@@ -1,0 +1,11 @@
+[
+    {
+        "keys": ["ctrl+t+i"], "command": "tita", "args": {"device": "iphone"} 
+    },
+    {
+        "keys": ["ctrl+t+a"], "command": "tita", "args": {"device": "android"} 
+    },
+    {
+        "keys": ["ctrl+t+m"], "command": "tita", "args": {"device": "mobileweb"} 
+    }
+]

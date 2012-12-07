@@ -1,0 +1,34 @@
+[
+{
+    "caption": "Alloy", 
+    "id": "tita",
+    "children":
+    [
+        { 
+          "command": "tita", 
+          "caption": "Run iPhone Simulator",
+          "args": {
+              "device": "iphone"
+          }  
+        },
+        { 
+          "command": "tita", 
+          "caption": "Run Android Emulator",
+          "args": {
+              "device": "android"
+          }  
+        },
+        { 
+          "command": "tita", 
+          "caption": "Run Mobile Web",
+          "args": {
+              "device": "mobileweb"
+          }  
+        },
+        { 
+          "command": "titagenerate", 
+          "caption": "Generate"
+        }
+    ]
+}
+]
