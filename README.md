@@ -18,6 +18,7 @@ You need Titanium CLI + Alloy:
  * `ctrl+a+m` Run MobileWeb
  * `ctrl+a+g` Generate something
  * `ctrl+a+c` Clean Build Directories
+ * Includes some snippets, just start typing "alloy"
 
 ### TODO
  * Set Android SDK Environment Variable
