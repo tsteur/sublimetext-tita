@@ -12,17 +12,19 @@ You need Titanium CLI + Alloy:
 
 ### Usage
  * Using context menu
- * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Alloy`
+ * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Titanium`
  * `ctrl+a+i` Run iPhone Simulator
  * `ctrl+a+a` Run Android Emulator
  * `ctrl+a+m` Run MobileWeb
  * `ctrl+a+g` Generate something
+ * `ctrl+a+c` Clean Build Directories
 
 ### TODO
  * Set Android SDK Environment Variable
- * Build MobileWeb (already performs a compile)
+ * Run Mobile Web
  * Run on device
  * Add Titanium-Code-Processor
+ * Trigger Clean Build when changing tiapp.xml
 
 ### Licence
 Copyright (c) 2012 Thomas Steur
