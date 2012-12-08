@@ -28,7 +28,7 @@ class Titagenerate(BaseCommand):
 
     def on_done(self, text):
         sublime.status_message('Generate' + text)
-        self.exec_command(u"alloy generate " + text, self.root(), self.window)
+        self.exec_command(u"alloy generate " + text)
 
     def run(self, *args, **kwargs):
         self.window.show_input_panel("alloy generate ", "", self.on_done, None, None)
