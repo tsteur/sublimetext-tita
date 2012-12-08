@@ -1,5 +1,8 @@
 {
     "exec_args": {
         "path": "/bin:/usr/bin:/usr/local/bin:/usr/local/lib/node_modules/"
+    },
+    "alloy": {
+        "logLevel": "3"
     }
 }
