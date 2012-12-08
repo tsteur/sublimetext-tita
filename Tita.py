@@ -14,6 +14,16 @@ def exec_command(cmd, path, window):
     window.run_command("exec", exec_args)
 
 
+class Titaclean(sublime_plugin.WindowCommand):
+
+    def root(self):
+        return self.window.folders()[0]
+
+    def run(self, *args, **kwargs):
+        sublime.status_message('Clean build directories')
+        exec_command(u"titanium clean", self.root(), self.window)
+
+
 class Titagenerate(sublime_plugin.WindowCommand):
 
     def root(self):

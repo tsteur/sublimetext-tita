@@ -10,5 +10,8 @@
     },
     {
         "keys": ["ctrl+t+g"], "command": "titagenerate" 
+    },
+    {
+        "keys": ["ctrl+t+c"], "command": "titaclean" 
     }
 ]

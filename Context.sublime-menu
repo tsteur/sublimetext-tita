@@ -1,33 +1,37 @@
 [
 {
-    "caption": "Alloy", 
+    "caption": "Titanium", 
     "id": "tita",
     "children":
     [
         { 
           "command": "tita", 
-          "caption": "Run iPhone Simulator",
+          "caption": "Alloy Run iPhone Simulator",
           "args": {
               "device": "iphone"
           }  
         },
         { 
           "command": "tita", 
-          "caption": "Run Android Emulator",
+          "caption": "Alloy Run Android Emulator",
           "args": {
               "device": "android"
           }  
         },
         { 
           "command": "tita", 
-          "caption": "Run Mobile Web",
+          "caption": "Alloy Run Mobile Web",
           "args": {
               "device": "mobileweb"
           }  
         },
         { 
           "command": "titagenerate", 
-          "caption": "Generate"
+          "caption": "Alloy Generate"
+        },
+        { 
+          "command": "titaclean", 
+          "caption": "Clean Build Directories"
         }
     ]
 }
