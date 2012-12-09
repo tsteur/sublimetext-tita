@@ -1,0 +1,20 @@
+Thank you for installing Tita -- a Titanium Mobile / Alloy Plugin
+
+
+The plugin requires Titanium CLI + Titanium Alloy.
+
+Readme: 
+https://github.com/tsteur/sublimetext-tita
+
+Features:
+* Run iPhone Simulator / Android Emulator
+* Compile MobileWeb (you need to run via Titanium Studio)
+* Clean Build Directories
+* Snippets
+* Auto-Completion
+
+Please direct any feedback to:
+* https://github.com/tsteur/sublimetext-tita
+* https://twitter.com/tsteur
+
+Thank you for your support.
