@@ -34,6 +34,9 @@ You need Titanium CLI + Alloy:
  * Add Titanium-Code-Processor
  * Trigger Clean Build when changing tiapp.xml
 
+### How to update sublime-completions
+Auto-Completion file is generated using this PHP snippet: https://gist.github.com/4244185
+
 ### Licence
 Copyright (c) 2012 Thomas Steur
 
