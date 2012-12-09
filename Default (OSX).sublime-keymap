@@ -1,17 +1,17 @@
 [
     {
-        "keys": ["ctrl+t+i"], "command": "tita", "args": {"device": "iphone"} 
+        "keys": ["super+alt+i"], "command": "tita", "args": {"device": "iphone"} 
     },
     {
-        "keys": ["ctrl+t+a"], "command": "tita", "args": {"device": "android"} 
+        "keys": ["super+alt+a"], "command": "tita", "args": {"device": "android"} 
     },
     {
-        "keys": ["ctrl+t+m"], "command": "tita", "args": {"device": "mobileweb"} 
+        "keys": ["super+alt+m"], "command": "tita", "args": {"device": "mobileweb"} 
     },
     {
-        "keys": ["ctrl+t+g"], "command": "titagenerate" 
+        "keys": ["super+alt+g"], "command": "titagenerate" 
     },
     {
-        "keys": ["ctrl+t+c"], "command": "titaclean" 
+        "keys": ["super+alt+c"], "command": "titaclean" 
     }
 ]

@@ -13,11 +13,11 @@ You need Titanium CLI + Alloy:
 ### Usage
  * Using context menu
  * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Titanium`
- * `ctrl+a+i` Run iPhone Simulator
- * `ctrl+a+a` Run Android Emulator
- * `ctrl+a+m` Run MobileWeb
- * `ctrl+a+g` Generate something
- * `ctrl+a+c` Clean Build Directories
+ * `super+alt+i` Run iPhone Simulator
+ * `super+alt+a` Run Android Emulator
+ * `super+alt+m` Run MobileWeb
+ * `super+alt+g` Generate something
+ * `super+alt+c` Clean Build Directories
  * Includes some snippets, just start typing "alloy"
 
 ### TODO
