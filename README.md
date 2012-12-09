@@ -37,6 +37,11 @@ You need Titanium CLI + Alloy:
 ### How to update sublime-completions
 Auto-Completion file is generated using this PHP snippet: https://gist.github.com/4244185
 
+### Support
+Please direct any feedback to:
+* https://github.com/tsteur/sublimetext-tita
+* https://twitter.com/tsteur
+
 ### Licence
 Copyright (c) 2012 Thomas Steur
 
