@@ -10,8 +10,8 @@
             "platforms": {
                 "osx": [
                     {
-                        "version": "0.1.0",
-                        "url": "https://nodeload.github.com/tsteur/sublimetext-tita/zip/v0.1"
+                        "version": "0.2.0",
+                        "url": "https://nodeload.github.com/tsteur/sublimetext-tita/zip/v0.2"
                     }
                 ]
             }
