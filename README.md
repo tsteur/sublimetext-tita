@@ -2,6 +2,13 @@
 
 Only tested on MacOSX so far.
 
+### Features
+ * Run iPhone Simulator / Android Emulator
+ * Compile MobileWeb (you need to run via Titanium Studio)
+ * Clean Build Directories
+ * Snippets
+ * Auto-Completion
+
 ### Installation
 Download and extract to Sublime Text 2 Packages folder:
  * Mac OS X: `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
@@ -18,7 +25,7 @@ You need Titanium CLI + Alloy:
  * `super+alt+m` Run MobileWeb
  * `super+alt+g` Generate something
  * `super+alt+c` Clean Build Directories
- * Includes some snippets, just start typing "alloy"
+ * To use snippets just start typing "alloy"
 
 ### TODO
  * Set Android SDK Environment Variable
