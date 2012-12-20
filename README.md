@@ -36,9 +36,7 @@ You need Titanium CLI + Alloy:
  * To use snippets just start typing "alloy"
 
 ### TODO
- * Set Android SDK Environment Variable
- * Run Mobile Web
- * Run on device
+ * Run on iOS device
  * Add Titanium-Code-Processor
  * Trigger Clean Build when changing tiapp.xml
 
