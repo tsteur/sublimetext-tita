@@ -11,8 +11,9 @@ Only tested on MacOSX so far.
  * Auto-Completion
 
 ### Installation
-Download and extract to Sublime Text 2 Packages folder:
- * Mac OS X: `~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
+
+The easiest way to install this package is with [Package Control](http://wbond.net/sublime_packages/package_control). A more complex method is to download and extract the ZIP package to Sublime Text 2 Packages folder:
+`~/Library/Application\ Support/Sublime\ Text\ 2/Packages/`
 
 You need Titanium CLI + Alloy:
  * https://github.com/appcelerator/titanium
