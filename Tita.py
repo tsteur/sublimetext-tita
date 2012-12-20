@@ -36,25 +36,31 @@ class Titagenerate(BaseCommand):
 
 class TitaCommand(BaseCommand):
 
-    def compilealloy(self, device):
+    def log_level(self):
+        return self.settings().get('alloy').get('logLevel')
+
+    def android_sdk_path(self):
+        return self.settings().get('android_sdk_path')
+
+    def compile_alloy(self, device):
         self.exec_command(u"alloy compile -n --config platform=" + device)
-        self.exec_command(u"titanium build --platform=" + device)
 
-    def runalloy(self, device):
-        loglevel = self.settings().get('alloy').get('logLevel')
-        cmd = u"alloy run -n -l %s %s %s " % (loglevel, self.root(), device)
-        self.exec_command(cmd)
+    def build(self, device, target):
+        loglevel = self.log_level()
 
-    def build(self, device):
-        cmd = u"titanium build -p ios -F %s -T simulator --project-dir %s" % (device, self.root())
-        self.exec_command(cmd)
-
-    def run(self, device='iphone', *args, **kwargs):
-        if ('mobileweb' == device):
-            sublime.status_message('Compiling MobileWeb')
-            self.compilealloy(device)
-            desktop.open('http://127.0.0.1:8020/index.html')
+        if ('iphone' == device or 'ipad' == device):
+            cmd = u"titanium build -p ios -F %s -T %s --log-level %s" % (device, target, loglevel)
+        if ('android' == device):
+            androidsdkpath = self.android_sdk_path()
+            cmd = u"titanium build -p %s -T %s -A %s --log-level %s" % (device, target, androidsdkpath, loglevel)
         else:
-            self.compilealloy(device);
-            sublime.status_message('Running ' + device)
-            self.build(device)
+            cmd = u"titanium build -p %s --log-level %s" % (device, loglevel)
+
+        self.exec_command(cmd)
+
+    def run(self, device='iphone', target='', *args, **kwargs):
+        self.compile_alloy(device)
+        self.build(device, target)
+
+        if ('mobileweb' == device):
+            desktop.open('http://127.0.0.1:8020/index.html')

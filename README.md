@@ -21,6 +21,8 @@ You need Titanium CLI + Alloy:
  * Using context menu
  * Using the Command Palette (`Command+Shift+P` on OSX). Just search for `Titanium`
  * `super+alt+i` Run iPhone Simulator
+ * `super+alt+p` Run iPad Simulator
+ * `super+alt+d` Run Android Device
  * `super+alt+a` Run Android Emulator
  * `super+alt+m` Run MobileWeb
  * `super+alt+g` Generate something

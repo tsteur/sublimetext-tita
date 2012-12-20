@@ -2,7 +2,10 @@
     "exec_args": {
         "path": "/bin:/usr/bin:/usr/local/bin:/usr/local/lib/node_modules/"
     },
+    "android_sdk_path": "",
     "alloy": {
-        "logLevel": "3"
+        // acceptable: trace, debug, info, warn, and error.
+        "logLevel": "debug"
     }
 }
+

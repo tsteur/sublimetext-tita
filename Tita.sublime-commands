@@ -1,12 +1,18 @@
 [
     {
-        "caption": "Titanium - Alloy Run iPhone Simulator", "command": "tita", "args": {"device": "iphone"} 
+        "caption": "Titanium - Alloy Run iPhone Simulator", "command": "tita", "args": {"device": "iphone", "target": "simulator"} 
     },
     {
-        "caption": "Titanium - Alloy Run Android Emulator", "command": "tita", "args": {"device": "android"} 
+        "caption": "Titanium - Alloy Run iPad Simulator", "command": "tita", "args": {"device": "ipad", "target": "simulator"} 
     },
     {
-        "caption": "Titanium - Alloy Run Mobile Web", "command": "tita", "args": {"device": "mobileweb"} 
+        "caption": "Titanium - Alloy Run Android Device", "command": "tita", "args": {"device": "android", "target": "device"} 
+    },
+    {
+        "caption": "Titanium - Alloy Run Android Emulator", "command": "tita", "args": {"device": "android", "target": "emulator"} 
+    },
+    {
+        "caption": "Titanium - Alloy Run Mobile Web", "command": "tita", "args": {"device": "mobileweb", "target": ""} 
     },
     {
         "caption": "Titanium - Alloy Generate", "command": "titagenerate" 

@@ -8,28 +8,40 @@
           "command": "tita", 
           "caption": "Alloy Run iPhone Simulator",
           "args": {
-              "device": "iphone"
+              "device": "iphone",
+              "target": "simulator"
           }  
         },
         { 
           "command": "tita", 
           "caption": "Alloy Run iPad Simulator",
           "args": {
-              "device": "ipad"
+              "device": "ipad",
+              "target": "simulator"
+          }  
+        },
+        { 
+          "command": "tita", 
+          "caption": "Alloy Run Android Device",
+          "args": {
+              "device": "android",
+              "target": "device"
           }  
         },
         { 
           "command": "tita", 
           "caption": "Alloy Run Android Emulator",
           "args": {
-              "device": "android"
+              "device": "android",
+              "target": "emulator"
           }  
         },
         { 
           "command": "tita", 
           "caption": "Alloy Run Mobile Web",
           "args": {
-              "device": "mobileweb"
+              "device": "mobileweb",
+              "target": ""
           }  
         },
         { 
