@@ -5,7 +5,7 @@ Only tested on MacOSX so far.
 ### Features
  * Run iPhone / iPad Simulator
  * Run Android Emulator / Android Device
- * Compile + Build MobileWeb (you need to run via Titanium Studio)
+ * Compile + Build MobileWeb (you need to run at least once via Titanium Studio)
  * Clean Build Directories
  * Snippets
  * Auto-Completion
@@ -18,6 +18,10 @@ The easiest way to install this package is with [Package Control](http://wbond.n
 You need Titanium CLI + Alloy:
  * https://github.com/appcelerator/titanium
  * https://github.com/appcelerator/alloy
+
+### Settings
+ * Android SDK Path
+ * Log Level
 
 ### Usage
  * Using context menu
