@@ -13,6 +13,13 @@
         },
         { 
           "command": "tita", 
+          "caption": "Alloy Run iPad Simulator",
+          "args": {
+              "device": "ipad"
+          }  
+        },
+        { 
+          "command": "tita", 
           "caption": "Alloy Run Android Emulator",
           "args": {
               "device": "android"

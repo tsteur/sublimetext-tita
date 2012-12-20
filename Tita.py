@@ -45,11 +45,16 @@ class TitaCommand(BaseCommand):
         cmd = u"alloy run -n -l %s %s %s " % (loglevel, self.root(), device)
         self.exec_command(cmd)
 
+    def build(self, device):
+        cmd = u"titanium build -p ios -F %s -T simulator --project-dir %s" % (device, self.root())
+        self.exec_command(cmd)
+
     def run(self, device='iphone', *args, **kwargs):
         if ('mobileweb' == device):
             sublime.status_message('Compiling MobileWeb')
             self.compilealloy(device)
             desktop.open('http://127.0.0.1:8020/index.html')
         else:
+            self.compilealloy(device);
             sublime.status_message('Running ' + device)
-            self.runalloy(device)
+            self.build(device)
