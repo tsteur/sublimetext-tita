@@ -1203,16 +1203,10 @@
     "Ti.UI.iOS.DocumentViewer.anchorPoint",
     "Ti.UI.iOS.DocumentViewer.animatedCenter",
     "Ti.UI.iOS.DocumentViewer.backgroundColor",
-    "Ti.UI.iOS.DocumentViewer.backgroundDisabledColor",
-    "Ti.UI.iOS.DocumentViewer.backgroundDisabledImage",
-    "Ti.UI.iOS.DocumentViewer.backgroundFocusedColor",
-    "Ti.UI.iOS.DocumentViewer.backgroundFocusedImage",
     "Ti.UI.iOS.DocumentViewer.backgroundGradient",
     "Ti.UI.iOS.DocumentViewer.backgroundImage",
     "Ti.UI.iOS.DocumentViewer.backgroundLeftCap",
     "Ti.UI.iOS.DocumentViewer.backgroundRepeat",
-    "Ti.UI.iOS.DocumentViewer.backgroundSelectedColor",
-    "Ti.UI.iOS.DocumentViewer.backgroundSelectedImage",
     "Ti.UI.iOS.DocumentViewer.backgroundTopCap",
     "Ti.UI.iOS.DocumentViewer.borderColor",
     "Ti.UI.iOS.DocumentViewer.borderRadius",
@@ -1221,17 +1215,14 @@
     "Ti.UI.iOS.DocumentViewer.bubbleParent",
     "Ti.UI.iOS.DocumentViewer.center",
     "Ti.UI.iOS.DocumentViewer.children",
-    "Ti.UI.iOS.DocumentViewer.focusable",
     "Ti.UI.iOS.DocumentViewer.height",
     "Ti.UI.iOS.DocumentViewer.horizontalWrap",
-    "Ti.UI.iOS.DocumentViewer.keepScreenOn",
     "Ti.UI.iOS.DocumentViewer.layout",
     "Ti.UI.iOS.DocumentViewer.left",
     "Ti.UI.iOS.DocumentViewer.opacity",
     "Ti.UI.iOS.DocumentViewer.rect",
     "Ti.UI.iOS.DocumentViewer.right",
     "Ti.UI.iOS.DocumentViewer.size",
-    "Ti.UI.iOS.DocumentViewer.softKeyboardOnFocus",
     "Ti.UI.iOS.DocumentViewer.top",
     "Ti.UI.iOS.DocumentViewer.touchEnabled",
     "Ti.UI.iOS.DocumentViewer.transform",
@@ -1295,22 +1286,6 @@
       "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundGradient()",
       "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundGradient()"
     },
@@ -1325,14 +1300,6 @@
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundRepeat()",
       "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getBackgroundTopCap()",
@@ -1367,20 +1334,12 @@
       "contents": "Ti.UI.iOS.DocumentViewer.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getFocusable()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iOS.DocumentViewer.getHeight()",
       "contents": "Ti.UI.iOS.DocumentViewer.getHeight()"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getHorizontalWrap()",
       "contents": "Ti.UI.iOS.DocumentViewer.getHorizontalWrap()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getKeepScreenOn()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getLayout()",
@@ -1405,10 +1364,6 @@
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getSize()",
       "contents": "Ti.UI.iOS.DocumentViewer.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.DocumentViewer.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.getTop()",
@@ -1471,22 +1426,6 @@
       "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundGradient()",
       "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -1501,14 +1440,6 @@
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundRepeat()",
       "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setBackgroundTopCap()",
@@ -1539,20 +1470,12 @@
       "contents": "Ti.UI.iOS.DocumentViewer.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setFocusable()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iOS.DocumentViewer.setHeight()",
       "contents": "Ti.UI.iOS.DocumentViewer.setHeight(${0:height})"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setHorizontalWrap()",
       "contents": "Ti.UI.iOS.DocumentViewer.setHorizontalWrap(${0:horizontalWrap})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setKeepScreenOn()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setLayout()",
@@ -1569,10 +1492,6 @@
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setRight()",
       "contents": "Ti.UI.iOS.DocumentViewer.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.DocumentViewer.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.DocumentViewer.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iOS.DocumentViewer.setTop()",
@@ -2703,16 +2622,10 @@
     "Ti.UI.CoverFlowView.anchorPoint",
     "Ti.UI.CoverFlowView.animatedCenter",
     "Ti.UI.CoverFlowView.backgroundColor",
-    "Ti.UI.CoverFlowView.backgroundDisabledColor",
-    "Ti.UI.CoverFlowView.backgroundDisabledImage",
-    "Ti.UI.CoverFlowView.backgroundFocusedColor",
-    "Ti.UI.CoverFlowView.backgroundFocusedImage",
     "Ti.UI.CoverFlowView.backgroundGradient",
     "Ti.UI.CoverFlowView.backgroundImage",
     "Ti.UI.CoverFlowView.backgroundLeftCap",
     "Ti.UI.CoverFlowView.backgroundRepeat",
-    "Ti.UI.CoverFlowView.backgroundSelectedColor",
-    "Ti.UI.CoverFlowView.backgroundSelectedImage",
     "Ti.UI.CoverFlowView.backgroundTopCap",
     "Ti.UI.CoverFlowView.borderColor",
     "Ti.UI.CoverFlowView.borderRadius",
@@ -2721,11 +2634,9 @@
     "Ti.UI.CoverFlowView.bubbleParent",
     "Ti.UI.CoverFlowView.center",
     "Ti.UI.CoverFlowView.children",
-    "Ti.UI.CoverFlowView.focusable",
     "Ti.UI.CoverFlowView.height",
     "Ti.UI.CoverFlowView.horizontalWrap",
     "Ti.UI.CoverFlowView.images",
-    "Ti.UI.CoverFlowView.keepScreenOn",
     "Ti.UI.CoverFlowView.layout",
     "Ti.UI.CoverFlowView.left",
     "Ti.UI.CoverFlowView.opacity",
@@ -2733,7 +2644,6 @@
     "Ti.UI.CoverFlowView.right",
     "Ti.UI.CoverFlowView.selected",
     "Ti.UI.CoverFlowView.size",
-    "Ti.UI.CoverFlowView.softKeyboardOnFocus",
     "Ti.UI.CoverFlowView.top",
     "Ti.UI.CoverFlowView.touchEnabled",
     "Ti.UI.CoverFlowView.transform",
@@ -2797,22 +2707,6 @@
       "contents": "Ti.UI.CoverFlowView.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.CoverFlowView.getBackgroundGradient()",
       "contents": "Ti.UI.CoverFlowView.getBackgroundGradient()"
     },
@@ -2827,14 +2721,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.getBackgroundRepeat()",
       "contents": "Ti.UI.CoverFlowView.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.CoverFlowView.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.getBackgroundTopCap()",
@@ -2869,10 +2755,6 @@
       "contents": "Ti.UI.CoverFlowView.getChildren()"
     },
     {
-      "trigger": "Ti.UI.CoverFlowView.getFocusable()",
-      "contents": "Ti.UI.CoverFlowView.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.CoverFlowView.getHeight()",
       "contents": "Ti.UI.CoverFlowView.getHeight()"
     },
@@ -2883,10 +2765,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.getImages()",
       "contents": "Ti.UI.CoverFlowView.getImages()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getKeepScreenOn()",
-      "contents": "Ti.UI.CoverFlowView.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.getLayout()",
@@ -2915,10 +2793,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.getSize()",
       "contents": "Ti.UI.CoverFlowView.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.CoverFlowView.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.getTop()",
@@ -2981,22 +2855,6 @@
       "contents": "Ti.UI.CoverFlowView.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.CoverFlowView.setBackgroundGradient()",
       "contents": "Ti.UI.CoverFlowView.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -3011,14 +2869,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.setBackgroundRepeat()",
       "contents": "Ti.UI.CoverFlowView.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.CoverFlowView.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.setBackgroundTopCap()",
@@ -3049,10 +2899,6 @@
       "contents": "Ti.UI.CoverFlowView.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.CoverFlowView.setFocusable()",
-      "contents": "Ti.UI.CoverFlowView.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.CoverFlowView.setHeight()",
       "contents": "Ti.UI.CoverFlowView.setHeight(${0:height})"
     },
@@ -3067,10 +2913,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.setImages()",
       "contents": "Ti.UI.CoverFlowView.setImages(${0:images})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setKeepScreenOn()",
-      "contents": "Ti.UI.CoverFlowView.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.setLayout()",
@@ -3091,10 +2933,6 @@
     {
       "trigger": "Ti.UI.CoverFlowView.setSelected()",
       "contents": "Ti.UI.CoverFlowView.setSelected(${0:selected})"
-    },
-    {
-      "trigger": "Ti.UI.CoverFlowView.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.CoverFlowView.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.CoverFlowView.setTop()",
@@ -4173,16 +4011,10 @@
     "Ti.UI.MaskedImage.anchorPoint",
     "Ti.UI.MaskedImage.animatedCenter",
     "Ti.UI.MaskedImage.backgroundColor",
-    "Ti.UI.MaskedImage.backgroundDisabledColor",
-    "Ti.UI.MaskedImage.backgroundDisabledImage",
-    "Ti.UI.MaskedImage.backgroundFocusedColor",
-    "Ti.UI.MaskedImage.backgroundFocusedImage",
     "Ti.UI.MaskedImage.backgroundGradient",
     "Ti.UI.MaskedImage.backgroundImage",
     "Ti.UI.MaskedImage.backgroundLeftCap",
     "Ti.UI.MaskedImage.backgroundRepeat",
-    "Ti.UI.MaskedImage.backgroundSelectedColor",
-    "Ti.UI.MaskedImage.backgroundSelectedImage",
     "Ti.UI.MaskedImage.backgroundTopCap",
     "Ti.UI.MaskedImage.borderColor",
     "Ti.UI.MaskedImage.borderRadius",
@@ -4191,11 +4023,9 @@
     "Ti.UI.MaskedImage.bubbleParent",
     "Ti.UI.MaskedImage.center",
     "Ti.UI.MaskedImage.children",
-    "Ti.UI.MaskedImage.focusable",
     "Ti.UI.MaskedImage.height",
     "Ti.UI.MaskedImage.horizontalWrap",
     "Ti.UI.MaskedImage.image",
-    "Ti.UI.MaskedImage.keepScreenOn",
     "Ti.UI.MaskedImage.layout",
     "Ti.UI.MaskedImage.left",
     "Ti.UI.MaskedImage.mask",
@@ -4204,7 +4034,6 @@
     "Ti.UI.MaskedImage.rect",
     "Ti.UI.MaskedImage.right",
     "Ti.UI.MaskedImage.size",
-    "Ti.UI.MaskedImage.softKeyboardOnFocus",
     "Ti.UI.MaskedImage.tint",
     "Ti.UI.MaskedImage.top",
     "Ti.UI.MaskedImage.touchEnabled",
@@ -4269,22 +4098,6 @@
       "contents": "Ti.UI.MaskedImage.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.MaskedImage.getBackgroundGradient()",
       "contents": "Ti.UI.MaskedImage.getBackgroundGradient()"
     },
@@ -4299,14 +4112,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.getBackgroundRepeat()",
       "contents": "Ti.UI.MaskedImage.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.MaskedImage.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.MaskedImage.getBackgroundTopCap()",
@@ -4341,10 +4146,6 @@
       "contents": "Ti.UI.MaskedImage.getChildren()"
     },
     {
-      "trigger": "Ti.UI.MaskedImage.getFocusable()",
-      "contents": "Ti.UI.MaskedImage.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.MaskedImage.getHeight()",
       "contents": "Ti.UI.MaskedImage.getHeight()"
     },
@@ -4355,10 +4156,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.getImage()",
       "contents": "Ti.UI.MaskedImage.getImage()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getKeepScreenOn()",
-      "contents": "Ti.UI.MaskedImage.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.MaskedImage.getLayout()",
@@ -4391,10 +4188,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.getSize()",
       "contents": "Ti.UI.MaskedImage.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.MaskedImage.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.MaskedImage.getTint()",
@@ -4461,22 +4254,6 @@
       "contents": "Ti.UI.MaskedImage.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.MaskedImage.setBackgroundGradient()",
       "contents": "Ti.UI.MaskedImage.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -4491,14 +4268,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.setBackgroundRepeat()",
       "contents": "Ti.UI.MaskedImage.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.MaskedImage.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.MaskedImage.setBackgroundTopCap()",
@@ -4529,10 +4298,6 @@
       "contents": "Ti.UI.MaskedImage.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.MaskedImage.setFocusable()",
-      "contents": "Ti.UI.MaskedImage.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.MaskedImage.setHeight()",
       "contents": "Ti.UI.MaskedImage.setHeight(${0:height})"
     },
@@ -4543,10 +4308,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.setImage()",
       "contents": "Ti.UI.MaskedImage.setImage(${0:image})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setKeepScreenOn()",
-      "contents": "Ti.UI.MaskedImage.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.MaskedImage.setLayout()",
@@ -4571,10 +4332,6 @@
     {
       "trigger": "Ti.UI.MaskedImage.setRight()",
       "contents": "Ti.UI.MaskedImage.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.MaskedImage.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.MaskedImage.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.MaskedImage.setTint()",
@@ -4689,7 +4446,6 @@
     "Ti.UI.MobileWeb.TableViewSeparatorStyle",
     "Ti.UI.MobileWeb.TableViewSeparatorStyle.NONE",
     "Ti.UI.MobileWeb.TableViewSeparatorStyle.SINGLE_LINE",
-    "Ti.UI.MobileWeb.TableViewSeparatorStyle.bubbleParent",
     {
       "trigger": "Ti.UI.MobileWeb.TableViewSeparatorStyle.addEventListener()",
       "contents": "Ti.UI.MobileWeb.TableViewSeparatorStyle.addEventListener(${0:name},${1:callback})"
@@ -4703,16 +4459,8 @@
       "contents": "Ti.UI.MobileWeb.TableViewSeparatorStyle.fireEvent(${0:name},${1:event})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.TableViewSeparatorStyle.getBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.TableViewSeparatorStyle.getBubbleParent()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.TableViewSeparatorStyle.removeEventListener()",
       "contents": "Ti.UI.MobileWeb.TableViewSeparatorStyle.removeEventListener(${0:name},${1:callback})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.TableViewSeparatorStyle.setBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.TableViewSeparatorStyle.setBubbleParent(${0:bubbleParent})"
     },
     "LocationResults",
     "LocationResults.code",
@@ -8849,35 +8597,19 @@
     "CloudEventOccurrencesResponse.meta",
     "CloudEventOccurrencesResponse.success",
     "Ti.UI.MobileWeb.NavigationGroup",
-    "Ti.UI.MobileWeb.NavigationGroup.accessibilityHidden",
-    "Ti.UI.MobileWeb.NavigationGroup.accessibilityHint",
-    "Ti.UI.MobileWeb.NavigationGroup.accessibilityLabel",
-    "Ti.UI.MobileWeb.NavigationGroup.accessibilityValue",
-    "Ti.UI.MobileWeb.NavigationGroup.anchorPoint",
-    "Ti.UI.MobileWeb.NavigationGroup.animatedCenter",
     "Ti.UI.MobileWeb.NavigationGroup.backgroundColor",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundDisabledColor",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundDisabledImage",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundFocusedColor",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundFocusedImage",
     "Ti.UI.MobileWeb.NavigationGroup.backgroundGradient",
     "Ti.UI.MobileWeb.NavigationGroup.backgroundImage",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundLeftCap",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundRepeat",
     "Ti.UI.MobileWeb.NavigationGroup.backgroundSelectedColor",
     "Ti.UI.MobileWeb.NavigationGroup.backgroundSelectedImage",
-    "Ti.UI.MobileWeb.NavigationGroup.backgroundTopCap",
     "Ti.UI.MobileWeb.NavigationGroup.borderColor",
     "Ti.UI.MobileWeb.NavigationGroup.borderRadius",
     "Ti.UI.MobileWeb.NavigationGroup.borderWidth",
     "Ti.UI.MobileWeb.NavigationGroup.bottom",
-    "Ti.UI.MobileWeb.NavigationGroup.bubbleParent",
     "Ti.UI.MobileWeb.NavigationGroup.center",
     "Ti.UI.MobileWeb.NavigationGroup.children",
-    "Ti.UI.MobileWeb.NavigationGroup.focusable",
     "Ti.UI.MobileWeb.NavigationGroup.height",
     "Ti.UI.MobileWeb.NavigationGroup.horizontalWrap",
-    "Ti.UI.MobileWeb.NavigationGroup.keepScreenOn",
     "Ti.UI.MobileWeb.NavigationGroup.layout",
     "Ti.UI.MobileWeb.NavigationGroup.left",
     "Ti.UI.MobileWeb.NavigationGroup.navBarAtTop",
@@ -8885,7 +8617,6 @@
     "Ti.UI.MobileWeb.NavigationGroup.rect",
     "Ti.UI.MobileWeb.NavigationGroup.right",
     "Ti.UI.MobileWeb.NavigationGroup.size",
-    "Ti.UI.MobileWeb.NavigationGroup.softKeyboardOnFocus",
     "Ti.UI.MobileWeb.NavigationGroup.top",
     "Ti.UI.MobileWeb.NavigationGroup.touchEnabled",
     "Ti.UI.MobileWeb.NavigationGroup.transform",
@@ -8926,48 +8657,8 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.fireEvent(${0:name},${1:event})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityHidden()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityHidden()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityHint()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityHint()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityLabel()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityLabel()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityValue()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAccessibilityValue()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAnchorPoint()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAnchorPoint()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getAnimatedCenter()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getAnimatedCenter()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundColor()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundColor()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundFocusedImage()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundGradient()",
@@ -8978,24 +8669,12 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundImage()"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundLeftCap()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundLeftCap()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundRepeat()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundRepeat()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundSelectedColor()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundSelectedColor()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundSelectedImage()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundSelectedImage()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundTopCap()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBackgroundTopCap()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBorderColor()",
@@ -9014,10 +8693,6 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getBottom()"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getBubbleParent()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getCenter()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getCenter()"
     },
@@ -9026,20 +8701,12 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getChildren()"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getFocusable()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getHeight()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getHeight()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getHorizontalWrap()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getHorizontalWrap()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getKeepScreenOn()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getLayout()",
@@ -9068,10 +8735,6 @@
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getSize()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.getTop()",
@@ -9118,44 +8781,8 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.removeEventListener(${0:name},${1:callback})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityHidden()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityHidden(${0:accessibilityHidden})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityHint()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityHint(${0:accessibilityHint})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityLabel()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityLabel(${0:accessibilityLabel})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityValue()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setAccessibilityValue(${0:accessibilityValue})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setAnchorPoint()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setAnchorPoint(${0:anchorPoint})"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundColor()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundColor(${0:backgroundColor})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundGradient()",
@@ -9166,24 +8793,12 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundImage(${0:backgroundImage})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundLeftCap()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundLeftCap(${0:backgroundLeftCap})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundRepeat()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundSelectedColor()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundSelectedImage()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundTopCap()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBackgroundTopCap(${0:backgroundTopCap})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBorderColor()",
@@ -9202,16 +8817,8 @@
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setBottom(${0:bottom})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setBubbleParent(${0:bubbleParent})"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setCenter()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setCenter(${0:center})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setFocusable()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setFocusable(${0:focusable})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setHeight()",
@@ -9220,10 +8827,6 @@
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setHorizontalWrap()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setHorizontalWrap(${0:horizontalWrap})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setKeepScreenOn()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setLayout()",
@@ -9244,10 +8847,6 @@
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setRight()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.setTop()",
@@ -9280,10 +8879,6 @@
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.startLayout()",
       "contents": "Ti.UI.MobileWeb.NavigationGroup.startLayout()"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.NavigationGroup.toImage()",
-      "contents": "Ti.UI.MobileWeb.NavigationGroup.toImage(${0:callback},${1:honorScaleFactor})"
     },
     {
       "trigger": "Ti.UI.MobileWeb.NavigationGroup.updateLayout()",
@@ -9942,16 +9537,10 @@
     "Ti.UI.TabbedBar.anchorPoint",
     "Ti.UI.TabbedBar.animatedCenter",
     "Ti.UI.TabbedBar.backgroundColor",
-    "Ti.UI.TabbedBar.backgroundDisabledColor",
-    "Ti.UI.TabbedBar.backgroundDisabledImage",
-    "Ti.UI.TabbedBar.backgroundFocusedColor",
-    "Ti.UI.TabbedBar.backgroundFocusedImage",
     "Ti.UI.TabbedBar.backgroundGradient",
     "Ti.UI.TabbedBar.backgroundImage",
     "Ti.UI.TabbedBar.backgroundLeftCap",
     "Ti.UI.TabbedBar.backgroundRepeat",
-    "Ti.UI.TabbedBar.backgroundSelectedColor",
-    "Ti.UI.TabbedBar.backgroundSelectedImage",
     "Ti.UI.TabbedBar.backgroundTopCap",
     "Ti.UI.TabbedBar.borderColor",
     "Ti.UI.TabbedBar.borderRadius",
@@ -9960,11 +9549,9 @@
     "Ti.UI.TabbedBar.bubbleParent",
     "Ti.UI.TabbedBar.center",
     "Ti.UI.TabbedBar.children",
-    "Ti.UI.TabbedBar.focusable",
     "Ti.UI.TabbedBar.height",
     "Ti.UI.TabbedBar.horizontalWrap",
     "Ti.UI.TabbedBar.index",
-    "Ti.UI.TabbedBar.keepScreenOn",
     "Ti.UI.TabbedBar.labels",
     "Ti.UI.TabbedBar.layout",
     "Ti.UI.TabbedBar.left",
@@ -9972,7 +9559,6 @@
     "Ti.UI.TabbedBar.rect",
     "Ti.UI.TabbedBar.right",
     "Ti.UI.TabbedBar.size",
-    "Ti.UI.TabbedBar.softKeyboardOnFocus",
     "Ti.UI.TabbedBar.style",
     "Ti.UI.TabbedBar.top",
     "Ti.UI.TabbedBar.touchEnabled",
@@ -10037,22 +9623,6 @@
       "contents": "Ti.UI.TabbedBar.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.TabbedBar.getBackgroundGradient()",
       "contents": "Ti.UI.TabbedBar.getBackgroundGradient()"
     },
@@ -10067,14 +9637,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.getBackgroundRepeat()",
       "contents": "Ti.UI.TabbedBar.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.TabbedBar.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.TabbedBar.getBackgroundTopCap()",
@@ -10109,10 +9671,6 @@
       "contents": "Ti.UI.TabbedBar.getChildren()"
     },
     {
-      "trigger": "Ti.UI.TabbedBar.getFocusable()",
-      "contents": "Ti.UI.TabbedBar.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.TabbedBar.getHeight()",
       "contents": "Ti.UI.TabbedBar.getHeight()"
     },
@@ -10123,10 +9681,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.getIndex()",
       "contents": "Ti.UI.TabbedBar.getIndex()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getKeepScreenOn()",
-      "contents": "Ti.UI.TabbedBar.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.TabbedBar.getLabels()",
@@ -10155,10 +9709,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.getSize()",
       "contents": "Ti.UI.TabbedBar.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.TabbedBar.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.TabbedBar.getStyle()",
@@ -10225,22 +9775,6 @@
       "contents": "Ti.UI.TabbedBar.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.TabbedBar.setBackgroundGradient()",
       "contents": "Ti.UI.TabbedBar.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -10255,14 +9789,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.setBackgroundRepeat()",
       "contents": "Ti.UI.TabbedBar.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.TabbedBar.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.TabbedBar.setBackgroundTopCap()",
@@ -10293,10 +9819,6 @@
       "contents": "Ti.UI.TabbedBar.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.TabbedBar.setFocusable()",
-      "contents": "Ti.UI.TabbedBar.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.TabbedBar.setHeight()",
       "contents": "Ti.UI.TabbedBar.setHeight(${0:height})"
     },
@@ -10307,10 +9829,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.setIndex()",
       "contents": "Ti.UI.TabbedBar.setIndex(${0:index})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setKeepScreenOn()",
-      "contents": "Ti.UI.TabbedBar.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.TabbedBar.setLabels()",
@@ -10331,10 +9849,6 @@
     {
       "trigger": "Ti.UI.TabbedBar.setRight()",
       "contents": "Ti.UI.TabbedBar.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.TabbedBar.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.TabbedBar.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.TabbedBar.setStyle()",
@@ -10892,7 +10406,6 @@
       "contents": "Ti.Cloud.Events.update(${0:parameters},${1:callback})"
     },
     "Ti.Geolocation.MobileWeb",
-    "Ti.Geolocation.MobileWeb.bubbleParent",
     "Ti.Geolocation.MobileWeb.forwardGeocoderTimeout",
     "Ti.Geolocation.MobileWeb.locationTimeout",
     "Ti.Geolocation.MobileWeb.maximumHeadingAge",
@@ -10909,10 +10422,6 @@
     {
       "trigger": "Ti.Geolocation.MobileWeb.fireEvent()",
       "contents": "Ti.Geolocation.MobileWeb.fireEvent(${0:name},${1:event})"
-    },
-    {
-      "trigger": "Ti.Geolocation.MobileWeb.getBubbleParent()",
-      "contents": "Ti.Geolocation.MobileWeb.getBubbleParent()"
     },
     {
       "trigger": "Ti.Geolocation.MobileWeb.getForwardGeocoderTimeout()",
@@ -10937,10 +10446,6 @@
     {
       "trigger": "Ti.Geolocation.MobileWeb.removeEventListener()",
       "contents": "Ti.Geolocation.MobileWeb.removeEventListener(${0:name},${1:callback})"
-    },
-    {
-      "trigger": "Ti.Geolocation.MobileWeb.setBubbleParent()",
-      "contents": "Ti.Geolocation.MobileWeb.setBubbleParent(${0:bubbleParent})"
     },
     {
       "trigger": "Ti.Geolocation.MobileWeb.setForwardGeocoderTimeout()",
@@ -14197,16 +13702,10 @@
     "Ti.UI.ButtonBar.anchorPoint",
     "Ti.UI.ButtonBar.animatedCenter",
     "Ti.UI.ButtonBar.backgroundColor",
-    "Ti.UI.ButtonBar.backgroundDisabledColor",
-    "Ti.UI.ButtonBar.backgroundDisabledImage",
-    "Ti.UI.ButtonBar.backgroundFocusedColor",
-    "Ti.UI.ButtonBar.backgroundFocusedImage",
     "Ti.UI.ButtonBar.backgroundGradient",
     "Ti.UI.ButtonBar.backgroundImage",
     "Ti.UI.ButtonBar.backgroundLeftCap",
     "Ti.UI.ButtonBar.backgroundRepeat",
-    "Ti.UI.ButtonBar.backgroundSelectedColor",
-    "Ti.UI.ButtonBar.backgroundSelectedImage",
     "Ti.UI.ButtonBar.backgroundTopCap",
     "Ti.UI.ButtonBar.borderColor",
     "Ti.UI.ButtonBar.borderRadius",
@@ -14215,11 +13714,9 @@
     "Ti.UI.ButtonBar.bubbleParent",
     "Ti.UI.ButtonBar.center",
     "Ti.UI.ButtonBar.children",
-    "Ti.UI.ButtonBar.focusable",
     "Ti.UI.ButtonBar.height",
     "Ti.UI.ButtonBar.horizontalWrap",
     "Ti.UI.ButtonBar.index",
-    "Ti.UI.ButtonBar.keepScreenOn",
     "Ti.UI.ButtonBar.labels",
     "Ti.UI.ButtonBar.layout",
     "Ti.UI.ButtonBar.left",
@@ -14227,7 +13724,6 @@
     "Ti.UI.ButtonBar.rect",
     "Ti.UI.ButtonBar.right",
     "Ti.UI.ButtonBar.size",
-    "Ti.UI.ButtonBar.softKeyboardOnFocus",
     "Ti.UI.ButtonBar.style",
     "Ti.UI.ButtonBar.top",
     "Ti.UI.ButtonBar.touchEnabled",
@@ -14292,22 +13788,6 @@
       "contents": "Ti.UI.ButtonBar.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.ButtonBar.getBackgroundGradient()",
       "contents": "Ti.UI.ButtonBar.getBackgroundGradient()"
     },
@@ -14322,14 +13802,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.getBackgroundRepeat()",
       "contents": "Ti.UI.ButtonBar.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.ButtonBar.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.ButtonBar.getBackgroundTopCap()",
@@ -14364,10 +13836,6 @@
       "contents": "Ti.UI.ButtonBar.getChildren()"
     },
     {
-      "trigger": "Ti.UI.ButtonBar.getFocusable()",
-      "contents": "Ti.UI.ButtonBar.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.ButtonBar.getHeight()",
       "contents": "Ti.UI.ButtonBar.getHeight()"
     },
@@ -14378,10 +13846,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.getIndex()",
       "contents": "Ti.UI.ButtonBar.getIndex()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getKeepScreenOn()",
-      "contents": "Ti.UI.ButtonBar.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.ButtonBar.getLabels()",
@@ -14410,10 +13874,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.getSize()",
       "contents": "Ti.UI.ButtonBar.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.ButtonBar.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.ButtonBar.getStyle()",
@@ -14480,22 +13940,6 @@
       "contents": "Ti.UI.ButtonBar.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.ButtonBar.setBackgroundGradient()",
       "contents": "Ti.UI.ButtonBar.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -14510,14 +13954,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.setBackgroundRepeat()",
       "contents": "Ti.UI.ButtonBar.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.ButtonBar.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.ButtonBar.setBackgroundTopCap()",
@@ -14548,10 +13984,6 @@
       "contents": "Ti.UI.ButtonBar.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.ButtonBar.setFocusable()",
-      "contents": "Ti.UI.ButtonBar.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.ButtonBar.setHeight()",
       "contents": "Ti.UI.ButtonBar.setHeight(${0:height})"
     },
@@ -14562,10 +13994,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.setIndex()",
       "contents": "Ti.UI.ButtonBar.setIndex(${0:index})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setKeepScreenOn()",
-      "contents": "Ti.UI.ButtonBar.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.ButtonBar.setLabels()",
@@ -14586,10 +14014,6 @@
     {
       "trigger": "Ti.UI.ButtonBar.setRight()",
       "contents": "Ti.UI.ButtonBar.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.ButtonBar.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.ButtonBar.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.ButtonBar.setStyle()",
@@ -16016,16 +15440,10 @@
     "Ti.UI.iPhone.NavigationGroup.anchorPoint",
     "Ti.UI.iPhone.NavigationGroup.animatedCenter",
     "Ti.UI.iPhone.NavigationGroup.backgroundColor",
-    "Ti.UI.iPhone.NavigationGroup.backgroundDisabledColor",
-    "Ti.UI.iPhone.NavigationGroup.backgroundDisabledImage",
-    "Ti.UI.iPhone.NavigationGroup.backgroundFocusedColor",
-    "Ti.UI.iPhone.NavigationGroup.backgroundFocusedImage",
     "Ti.UI.iPhone.NavigationGroup.backgroundGradient",
     "Ti.UI.iPhone.NavigationGroup.backgroundImage",
     "Ti.UI.iPhone.NavigationGroup.backgroundLeftCap",
     "Ti.UI.iPhone.NavigationGroup.backgroundRepeat",
-    "Ti.UI.iPhone.NavigationGroup.backgroundSelectedColor",
-    "Ti.UI.iPhone.NavigationGroup.backgroundSelectedImage",
     "Ti.UI.iPhone.NavigationGroup.backgroundTopCap",
     "Ti.UI.iPhone.NavigationGroup.borderColor",
     "Ti.UI.iPhone.NavigationGroup.borderRadius",
@@ -16034,17 +15452,14 @@
     "Ti.UI.iPhone.NavigationGroup.bubbleParent",
     "Ti.UI.iPhone.NavigationGroup.center",
     "Ti.UI.iPhone.NavigationGroup.children",
-    "Ti.UI.iPhone.NavigationGroup.focusable",
     "Ti.UI.iPhone.NavigationGroup.height",
     "Ti.UI.iPhone.NavigationGroup.horizontalWrap",
-    "Ti.UI.iPhone.NavigationGroup.keepScreenOn",
     "Ti.UI.iPhone.NavigationGroup.layout",
     "Ti.UI.iPhone.NavigationGroup.left",
     "Ti.UI.iPhone.NavigationGroup.opacity",
     "Ti.UI.iPhone.NavigationGroup.rect",
     "Ti.UI.iPhone.NavigationGroup.right",
     "Ti.UI.iPhone.NavigationGroup.size",
-    "Ti.UI.iPhone.NavigationGroup.softKeyboardOnFocus",
     "Ti.UI.iPhone.NavigationGroup.top",
     "Ti.UI.iPhone.NavigationGroup.touchEnabled",
     "Ti.UI.iPhone.NavigationGroup.transform",
@@ -16113,22 +15528,6 @@
       "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundGradient()",
       "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundGradient()"
     },
@@ -16143,14 +15542,6 @@
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundRepeat()",
       "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getBackgroundTopCap()",
@@ -16185,20 +15576,12 @@
       "contents": "Ti.UI.iPhone.NavigationGroup.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getFocusable()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getHeight()",
       "contents": "Ti.UI.iPhone.NavigationGroup.getHeight()"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getHorizontalWrap()",
       "contents": "Ti.UI.iPhone.NavigationGroup.getHorizontalWrap()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getKeepScreenOn()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getLayout()",
@@ -16223,10 +15606,6 @@
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getSize()",
       "contents": "Ti.UI.iPhone.NavigationGroup.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.getTop()",
@@ -16297,22 +15676,6 @@
       "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundGradient()",
       "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -16327,14 +15690,6 @@
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundRepeat()",
       "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setBackgroundTopCap()",
@@ -16365,20 +15720,12 @@
       "contents": "Ti.UI.iPhone.NavigationGroup.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setFocusable()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setHeight()",
       "contents": "Ti.UI.iPhone.NavigationGroup.setHeight(${0:height})"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setHorizontalWrap()",
       "contents": "Ti.UI.iPhone.NavigationGroup.setHorizontalWrap(${0:horizontalWrap})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setKeepScreenOn()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setLayout()",
@@ -16395,10 +15742,6 @@
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setRight()",
       "contents": "Ti.UI.iPhone.NavigationGroup.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.iPhone.NavigationGroup.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPhone.NavigationGroup.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iPhone.NavigationGroup.setTop()",
@@ -16445,22 +15788,15 @@
     "Ti.UI.iPad.SplitWindow.accessibilityHint",
     "Ti.UI.iPad.SplitWindow.accessibilityLabel",
     "Ti.UI.iPad.SplitWindow.accessibilityValue",
-    "Ti.UI.iPad.SplitWindow.activity",
     "Ti.UI.iPad.SplitWindow.anchorPoint",
     "Ti.UI.iPad.SplitWindow.animatedCenter",
     "Ti.UI.iPad.SplitWindow.backButtonTitle",
     "Ti.UI.iPad.SplitWindow.backButtonTitleImage",
     "Ti.UI.iPad.SplitWindow.backgroundColor",
-    "Ti.UI.iPad.SplitWindow.backgroundDisabledColor",
-    "Ti.UI.iPad.SplitWindow.backgroundDisabledImage",
-    "Ti.UI.iPad.SplitWindow.backgroundFocusedColor",
-    "Ti.UI.iPad.SplitWindow.backgroundFocusedImage",
     "Ti.UI.iPad.SplitWindow.backgroundGradient",
     "Ti.UI.iPad.SplitWindow.backgroundImage",
     "Ti.UI.iPad.SplitWindow.backgroundLeftCap",
     "Ti.UI.iPad.SplitWindow.backgroundRepeat",
-    "Ti.UI.iPad.SplitWindow.backgroundSelectedColor",
-    "Ti.UI.iPad.SplitWindow.backgroundSelectedImage",
     "Ti.UI.iPad.SplitWindow.backgroundTopCap",
     "Ti.UI.iPad.SplitWindow.barColor",
     "Ti.UI.iPad.SplitWindow.barImage",
@@ -16472,12 +15808,9 @@
     "Ti.UI.iPad.SplitWindow.center",
     "Ti.UI.iPad.SplitWindow.children",
     "Ti.UI.iPad.SplitWindow.detailView",
-    "Ti.UI.iPad.SplitWindow.exitOnClose",
-    "Ti.UI.iPad.SplitWindow.focusable",
     "Ti.UI.iPad.SplitWindow.fullscreen",
     "Ti.UI.iPad.SplitWindow.height",
     "Ti.UI.iPad.SplitWindow.horizontalWrap",
-    "Ti.UI.iPad.SplitWindow.keepScreenOn",
     "Ti.UI.iPad.SplitWindow.layout",
     "Ti.UI.iPad.SplitWindow.left",
     "Ti.UI.iPad.SplitWindow.leftNavButton",
@@ -16492,7 +15825,6 @@
     "Ti.UI.iPad.SplitWindow.rightNavButton",
     "Ti.UI.iPad.SplitWindow.showMasterInPortrait",
     "Ti.UI.iPad.SplitWindow.size",
-    "Ti.UI.iPad.SplitWindow.softKeyboardOnFocus",
     "Ti.UI.iPad.SplitWindow.tabBarHidden",
     "Ti.UI.iPad.SplitWindow.title",
     "Ti.UI.iPad.SplitWindow.titleControl",
@@ -16508,8 +15840,6 @@
     "Ti.UI.iPad.SplitWindow.url",
     "Ti.UI.iPad.SplitWindow.visible",
     "Ti.UI.iPad.SplitWindow.width",
-    "Ti.UI.iPad.SplitWindow.windowPixelFormat",
-    "Ti.UI.iPad.SplitWindow.windowSoftInputMode",
     "Ti.UI.iPad.SplitWindow.zIndex",
     {
       "trigger": "Ti.UI.iPad.SplitWindow.add()",
@@ -16560,10 +15890,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.getAccessibilityValue()"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.getActivity()",
-      "contents": "Ti.UI.iPad.SplitWindow.getActivity()"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.getAnchorPoint()",
       "contents": "Ti.UI.iPad.SplitWindow.getAnchorPoint()"
     },
@@ -16584,22 +15910,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundGradient()",
       "contents": "Ti.UI.iPad.SplitWindow.getBackgroundGradient()"
     },
@@ -16614,14 +15924,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundRepeat()",
       "contents": "Ti.UI.iPad.SplitWindow.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getBackgroundTopCap()",
@@ -16668,14 +15970,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.getDetailView()"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.getExitOnClose()",
-      "contents": "Ti.UI.iPad.SplitWindow.getExitOnClose()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getFocusable()",
-      "contents": "Ti.UI.iPad.SplitWindow.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.getFullscreen()",
       "contents": "Ti.UI.iPad.SplitWindow.getFullscreen()"
     },
@@ -16686,10 +15980,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getHorizontalWrap()",
       "contents": "Ti.UI.iPad.SplitWindow.getHorizontalWrap()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getKeepScreenOn()",
-      "contents": "Ti.UI.iPad.SplitWindow.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getLayout()",
@@ -16746,10 +16036,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getSize()",
       "contents": "Ti.UI.iPad.SplitWindow.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPad.SplitWindow.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.getTabBarHidden()",
@@ -16812,14 +16098,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.getWidth()"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.getWindowPixelFormat()",
-      "contents": "Ti.UI.iPad.SplitWindow.getWindowPixelFormat()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.getWindowSoftInputMode()",
-      "contents": "Ti.UI.iPad.SplitWindow.getWindowSoftInputMode()"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.getZIndex()",
       "contents": "Ti.UI.iPad.SplitWindow.getZIndex()"
     },
@@ -16860,10 +16138,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.setAccessibilityValue(${0:accessibilityValue})"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.setActivity()",
-      "contents": "Ti.UI.iPad.SplitWindow.setActivity(${0:activity})"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.setAnchorPoint()",
       "contents": "Ti.UI.iPad.SplitWindow.setAnchorPoint(${0:anchorPoint})"
     },
@@ -16880,22 +16154,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundGradient()",
       "contents": "Ti.UI.iPad.SplitWindow.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -16910,14 +16168,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundRepeat()",
       "contents": "Ti.UI.iPad.SplitWindow.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPad.SplitWindow.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setBackgroundTopCap()",
@@ -16956,10 +16206,6 @@
       "contents": "Ti.UI.iPad.SplitWindow.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iPad.SplitWindow.setFocusable()",
-      "contents": "Ti.UI.iPad.SplitWindow.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iPad.SplitWindow.setFullscreen()",
       "contents": "Ti.UI.iPad.SplitWindow.setFullscreen(${0:fullscreen})"
     },
@@ -16970,10 +16216,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setHorizontalWrap()",
       "contents": "Ti.UI.iPad.SplitWindow.setHorizontalWrap(${0:horizontalWrap})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setKeepScreenOn()",
-      "contents": "Ti.UI.iPad.SplitWindow.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setLayout()",
@@ -17014,10 +16256,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setShowMasterInPortrait()",
       "contents": "Ti.UI.iPad.SplitWindow.setShowMasterInPortrait(${0:showMasterInPortrait})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPad.SplitWindow.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setTabBarHidden()",
@@ -17074,10 +16312,6 @@
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setWidth()",
       "contents": "Ti.UI.iPad.SplitWindow.setWidth(${0:width})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.SplitWindow.setWindowPixelFormat()",
-      "contents": "Ti.UI.iPad.SplitWindow.setWindowPixelFormat(${0:windowPixelFormat})"
     },
     {
       "trigger": "Ti.UI.iPad.SplitWindow.setZIndex()",
@@ -17285,7 +16519,6 @@
     "Ti.UI.Notification.accessibilityHint",
     "Ti.UI.Notification.accessibilityLabel",
     "Ti.UI.Notification.accessibilityValue",
-    "Ti.UI.Notification.anchorPoint",
     "Ti.UI.Notification.animatedCenter",
     "Ti.UI.Notification.backgroundColor",
     "Ti.UI.Notification.backgroundDisabledColor",
@@ -17294,11 +16527,9 @@
     "Ti.UI.Notification.backgroundFocusedImage",
     "Ti.UI.Notification.backgroundGradient",
     "Ti.UI.Notification.backgroundImage",
-    "Ti.UI.Notification.backgroundLeftCap",
     "Ti.UI.Notification.backgroundRepeat",
     "Ti.UI.Notification.backgroundSelectedColor",
     "Ti.UI.Notification.backgroundSelectedImage",
-    "Ti.UI.Notification.backgroundTopCap",
     "Ti.UI.Notification.borderColor",
     "Ti.UI.Notification.borderRadius",
     "Ti.UI.Notification.borderWidth",
@@ -17374,10 +16605,6 @@
       "contents": "Ti.UI.Notification.getAccessibilityValue()"
     },
     {
-      "trigger": "Ti.UI.Notification.getAnchorPoint()",
-      "contents": "Ti.UI.Notification.getAnchorPoint()"
-    },
-    {
       "trigger": "Ti.UI.Notification.getAnimatedCenter()",
       "contents": "Ti.UI.Notification.getAnimatedCenter()"
     },
@@ -17410,10 +16637,6 @@
       "contents": "Ti.UI.Notification.getBackgroundImage()"
     },
     {
-      "trigger": "Ti.UI.Notification.getBackgroundLeftCap()",
-      "contents": "Ti.UI.Notification.getBackgroundLeftCap()"
-    },
-    {
       "trigger": "Ti.UI.Notification.getBackgroundRepeat()",
       "contents": "Ti.UI.Notification.getBackgroundRepeat()"
     },
@@ -17424,10 +16647,6 @@
     {
       "trigger": "Ti.UI.Notification.getBackgroundSelectedImage()",
       "contents": "Ti.UI.Notification.getBackgroundSelectedImage()"
-    },
-    {
-      "trigger": "Ti.UI.Notification.getBackgroundTopCap()",
-      "contents": "Ti.UI.Notification.getBackgroundTopCap()"
     },
     {
       "trigger": "Ti.UI.Notification.getBorderColor()",
@@ -17578,10 +16797,6 @@
       "contents": "Ti.UI.Notification.setAccessibilityValue(${0:accessibilityValue})"
     },
     {
-      "trigger": "Ti.UI.Notification.setAnchorPoint()",
-      "contents": "Ti.UI.Notification.setAnchorPoint(${0:anchorPoint})"
-    },
-    {
       "trigger": "Ti.UI.Notification.setBackgroundColor()",
       "contents": "Ti.UI.Notification.setBackgroundColor(${0:backgroundColor})"
     },
@@ -17610,10 +16825,6 @@
       "contents": "Ti.UI.Notification.setBackgroundImage(${0:backgroundImage})"
     },
     {
-      "trigger": "Ti.UI.Notification.setBackgroundLeftCap()",
-      "contents": "Ti.UI.Notification.setBackgroundLeftCap(${0:backgroundLeftCap})"
-    },
-    {
       "trigger": "Ti.UI.Notification.setBackgroundRepeat()",
       "contents": "Ti.UI.Notification.setBackgroundRepeat(${0:backgroundRepeat})"
     },
@@ -17624,10 +16835,6 @@
     {
       "trigger": "Ti.UI.Notification.setBackgroundSelectedImage()",
       "contents": "Ti.UI.Notification.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
-    },
-    {
-      "trigger": "Ti.UI.Notification.setBackgroundTopCap()",
-      "contents": "Ti.UI.Notification.setBackgroundTopCap(${0:backgroundTopCap})"
     },
     {
       "trigger": "Ti.UI.Notification.setBorderColor()",
@@ -20224,16 +19431,10 @@
     "Ti.UI.iPad.DocumentViewer.anchorPoint",
     "Ti.UI.iPad.DocumentViewer.animatedCenter",
     "Ti.UI.iPad.DocumentViewer.backgroundColor",
-    "Ti.UI.iPad.DocumentViewer.backgroundDisabledColor",
-    "Ti.UI.iPad.DocumentViewer.backgroundDisabledImage",
-    "Ti.UI.iPad.DocumentViewer.backgroundFocusedColor",
-    "Ti.UI.iPad.DocumentViewer.backgroundFocusedImage",
     "Ti.UI.iPad.DocumentViewer.backgroundGradient",
     "Ti.UI.iPad.DocumentViewer.backgroundImage",
     "Ti.UI.iPad.DocumentViewer.backgroundLeftCap",
     "Ti.UI.iPad.DocumentViewer.backgroundRepeat",
-    "Ti.UI.iPad.DocumentViewer.backgroundSelectedColor",
-    "Ti.UI.iPad.DocumentViewer.backgroundSelectedImage",
     "Ti.UI.iPad.DocumentViewer.backgroundTopCap",
     "Ti.UI.iPad.DocumentViewer.borderColor",
     "Ti.UI.iPad.DocumentViewer.borderRadius",
@@ -20242,17 +19443,14 @@
     "Ti.UI.iPad.DocumentViewer.bubbleParent",
     "Ti.UI.iPad.DocumentViewer.center",
     "Ti.UI.iPad.DocumentViewer.children",
-    "Ti.UI.iPad.DocumentViewer.focusable",
     "Ti.UI.iPad.DocumentViewer.height",
     "Ti.UI.iPad.DocumentViewer.horizontalWrap",
-    "Ti.UI.iPad.DocumentViewer.keepScreenOn",
     "Ti.UI.iPad.DocumentViewer.layout",
     "Ti.UI.iPad.DocumentViewer.left",
     "Ti.UI.iPad.DocumentViewer.opacity",
     "Ti.UI.iPad.DocumentViewer.rect",
     "Ti.UI.iPad.DocumentViewer.right",
     "Ti.UI.iPad.DocumentViewer.size",
-    "Ti.UI.iPad.DocumentViewer.softKeyboardOnFocus",
     "Ti.UI.iPad.DocumentViewer.top",
     "Ti.UI.iPad.DocumentViewer.touchEnabled",
     "Ti.UI.iPad.DocumentViewer.transform",
@@ -20316,22 +19514,6 @@
       "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundGradient()",
       "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundGradient()"
     },
@@ -20346,14 +19528,6 @@
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundRepeat()",
       "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getBackgroundTopCap()",
@@ -20388,20 +19562,12 @@
       "contents": "Ti.UI.iPad.DocumentViewer.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getFocusable()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iPad.DocumentViewer.getHeight()",
       "contents": "Ti.UI.iPad.DocumentViewer.getHeight()"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getHorizontalWrap()",
       "contents": "Ti.UI.iPad.DocumentViewer.getHorizontalWrap()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getKeepScreenOn()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getLayout()",
@@ -20426,10 +19592,6 @@
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getSize()",
       "contents": "Ti.UI.iPad.DocumentViewer.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPad.DocumentViewer.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.getTop()",
@@ -20492,22 +19654,6 @@
       "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundGradient()",
       "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -20522,14 +19668,6 @@
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundRepeat()",
       "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setBackgroundTopCap()",
@@ -20560,20 +19698,12 @@
       "contents": "Ti.UI.iPad.DocumentViewer.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setFocusable()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iPad.DocumentViewer.setHeight()",
       "contents": "Ti.UI.iPad.DocumentViewer.setHeight(${0:height})"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setHorizontalWrap()",
       "contents": "Ti.UI.iPad.DocumentViewer.setHorizontalWrap(${0:horizontalWrap})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setKeepScreenOn()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setLayout()",
@@ -20590,10 +19720,6 @@
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setRight()",
       "contents": "Ti.UI.iPad.DocumentViewer.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.iPad.DocumentViewer.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iPad.DocumentViewer.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iPad.DocumentViewer.setTop()",
@@ -20917,11 +20043,9 @@
     "Ti.UI.Toolbar.bubbleParent",
     "Ti.UI.Toolbar.center",
     "Ti.UI.Toolbar.children",
-    "Ti.UI.Toolbar.focusable",
     "Ti.UI.Toolbar.height",
     "Ti.UI.Toolbar.horizontalWrap",
     "Ti.UI.Toolbar.items",
-    "Ti.UI.Toolbar.keepScreenOn",
     "Ti.UI.Toolbar.left",
     "Ti.UI.Toolbar.opacity",
     "Ti.UI.Toolbar.rect",
@@ -21035,10 +20159,6 @@
       "contents": "Ti.UI.Toolbar.getChildren()"
     },
     {
-      "trigger": "Ti.UI.Toolbar.getFocusable()",
-      "contents": "Ti.UI.Toolbar.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.Toolbar.getHeight()",
       "contents": "Ti.UI.Toolbar.getHeight()"
     },
@@ -21049,10 +20169,6 @@
     {
       "trigger": "Ti.UI.Toolbar.getItems()",
       "contents": "Ti.UI.Toolbar.getItems()"
-    },
-    {
-      "trigger": "Ti.UI.Toolbar.getKeepScreenOn()",
-      "contents": "Ti.UI.Toolbar.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.Toolbar.getLeft()",
@@ -21179,10 +20295,6 @@
       "contents": "Ti.UI.Toolbar.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.Toolbar.setFocusable()",
-      "contents": "Ti.UI.Toolbar.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.Toolbar.setHeight()",
       "contents": "Ti.UI.Toolbar.setHeight(${0:height})"
     },
@@ -21193,10 +20305,6 @@
     {
       "trigger": "Ti.UI.Toolbar.setItems()",
       "contents": "Ti.UI.Toolbar.setItems(${0:items})"
-    },
-    {
-      "trigger": "Ti.UI.Toolbar.setKeepScreenOn()",
-      "contents": "Ti.UI.Toolbar.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.Toolbar.setLeft()",
@@ -21959,16 +21067,10 @@
     "Ti.UI.iOS.TabbedBar.anchorPoint",
     "Ti.UI.iOS.TabbedBar.animatedCenter",
     "Ti.UI.iOS.TabbedBar.backgroundColor",
-    "Ti.UI.iOS.TabbedBar.backgroundDisabledColor",
-    "Ti.UI.iOS.TabbedBar.backgroundDisabledImage",
-    "Ti.UI.iOS.TabbedBar.backgroundFocusedColor",
-    "Ti.UI.iOS.TabbedBar.backgroundFocusedImage",
     "Ti.UI.iOS.TabbedBar.backgroundGradient",
     "Ti.UI.iOS.TabbedBar.backgroundImage",
     "Ti.UI.iOS.TabbedBar.backgroundLeftCap",
     "Ti.UI.iOS.TabbedBar.backgroundRepeat",
-    "Ti.UI.iOS.TabbedBar.backgroundSelectedColor",
-    "Ti.UI.iOS.TabbedBar.backgroundSelectedImage",
     "Ti.UI.iOS.TabbedBar.backgroundTopCap",
     "Ti.UI.iOS.TabbedBar.borderColor",
     "Ti.UI.iOS.TabbedBar.borderRadius",
@@ -21977,11 +21079,9 @@
     "Ti.UI.iOS.TabbedBar.bubbleParent",
     "Ti.UI.iOS.TabbedBar.center",
     "Ti.UI.iOS.TabbedBar.children",
-    "Ti.UI.iOS.TabbedBar.focusable",
     "Ti.UI.iOS.TabbedBar.height",
     "Ti.UI.iOS.TabbedBar.horizontalWrap",
     "Ti.UI.iOS.TabbedBar.index",
-    "Ti.UI.iOS.TabbedBar.keepScreenOn",
     "Ti.UI.iOS.TabbedBar.labels",
     "Ti.UI.iOS.TabbedBar.layout",
     "Ti.UI.iOS.TabbedBar.left",
@@ -21989,7 +21089,6 @@
     "Ti.UI.iOS.TabbedBar.rect",
     "Ti.UI.iOS.TabbedBar.right",
     "Ti.UI.iOS.TabbedBar.size",
-    "Ti.UI.iOS.TabbedBar.softKeyboardOnFocus",
     "Ti.UI.iOS.TabbedBar.style",
     "Ti.UI.iOS.TabbedBar.top",
     "Ti.UI.iOS.TabbedBar.touchEnabled",
@@ -22054,22 +21153,6 @@
       "contents": "Ti.UI.iOS.TabbedBar.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundGradient()",
       "contents": "Ti.UI.iOS.TabbedBar.getBackgroundGradient()"
     },
@@ -22084,14 +21167,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundRepeat()",
       "contents": "Ti.UI.iOS.TabbedBar.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getBackgroundTopCap()",
@@ -22126,10 +21201,6 @@
       "contents": "Ti.UI.iOS.TabbedBar.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iOS.TabbedBar.getFocusable()",
-      "contents": "Ti.UI.iOS.TabbedBar.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iOS.TabbedBar.getHeight()",
       "contents": "Ti.UI.iOS.TabbedBar.getHeight()"
     },
@@ -22140,10 +21211,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getIndex()",
       "contents": "Ti.UI.iOS.TabbedBar.getIndex()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getKeepScreenOn()",
-      "contents": "Ti.UI.iOS.TabbedBar.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getLabels()",
@@ -22172,10 +21239,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getSize()",
       "contents": "Ti.UI.iOS.TabbedBar.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.TabbedBar.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.getStyle()",
@@ -22242,22 +21305,6 @@
       "contents": "Ti.UI.iOS.TabbedBar.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundGradient()",
       "contents": "Ti.UI.iOS.TabbedBar.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -22272,14 +21319,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundRepeat()",
       "contents": "Ti.UI.iOS.TabbedBar.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.TabbedBar.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setBackgroundTopCap()",
@@ -22310,10 +21349,6 @@
       "contents": "Ti.UI.iOS.TabbedBar.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iOS.TabbedBar.setFocusable()",
-      "contents": "Ti.UI.iOS.TabbedBar.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iOS.TabbedBar.setHeight()",
       "contents": "Ti.UI.iOS.TabbedBar.setHeight(${0:height})"
     },
@@ -22324,10 +21359,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setIndex()",
       "contents": "Ti.UI.iOS.TabbedBar.setIndex(${0:index})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setKeepScreenOn()",
-      "contents": "Ti.UI.iOS.TabbedBar.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setLabels()",
@@ -22348,10 +21379,6 @@
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setRight()",
       "contents": "Ti.UI.iOS.TabbedBar.setRight(${0:right})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.TabbedBar.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.TabbedBar.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iOS.TabbedBar.setStyle()",
@@ -22762,6 +21789,7 @@
     "Ti.UI.TabGroup.keepScreenOn",
     "Ti.UI.TabGroup.layout",
     "Ti.UI.TabGroup.left",
+    "Ti.UI.TabGroup.navBarHidden",
     "Ti.UI.TabGroup.opacity",
     "Ti.UI.TabGroup.rect",
     "Ti.UI.TabGroup.right",
@@ -22874,6 +21902,10 @@
     {
       "trigger": "Ti.UI.TabGroup.getActiveTabBackgroundSelectedImage()",
       "contents": "Ti.UI.TabGroup.getActiveTabBackgroundSelectedImage()"
+    },
+    {
+      "trigger": "Ti.UI.TabGroup.getActivity()",
+      "contents": "Ti.UI.TabGroup.getActivity()"
     },
     {
       "trigger": "Ti.UI.TabGroup.getAllowUserCustomization()",
@@ -22998,6 +22030,10 @@
     {
       "trigger": "Ti.UI.TabGroup.getLeft()",
       "contents": "Ti.UI.TabGroup.getLeft()"
+    },
+    {
+      "trigger": "Ti.UI.TabGroup.getNavBarHidden()",
+      "contents": "Ti.UI.TabGroup.getNavBarHidden()"
     },
     {
       "trigger": "Ti.UI.TabGroup.getOpacity()",
@@ -23282,6 +22318,10 @@
     {
       "trigger": "Ti.UI.TabGroup.setLeft()",
       "contents": "Ti.UI.TabGroup.setLeft(${0:left})"
+    },
+    {
+      "trigger": "Ti.UI.TabGroup.setNavBarHidden()",
+      "contents": "Ti.UI.TabGroup.setNavBarHidden(${0:navBarHidden})"
     },
     {
       "trigger": "Ti.UI.TabGroup.setOpacity()",
@@ -25752,7 +24792,6 @@
       "contents": "Ti.Android.Menu.size()"
     },
     "Ti.UI.MobileWeb",
-    "Ti.UI.MobileWeb.bubbleParent",
     {
       "trigger": "Ti.UI.MobileWeb.addEventListener()",
       "contents": "Ti.UI.MobileWeb.addEventListener(${0:name},${1:callback})"
@@ -25770,16 +24809,8 @@
       "contents": "Ti.UI.MobileWeb.fireEvent(${0:name},${1:event})"
     },
     {
-      "trigger": "Ti.UI.MobileWeb.getBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.getBubbleParent()"
-    },
-    {
       "trigger": "Ti.UI.MobileWeb.removeEventListener()",
       "contents": "Ti.UI.MobileWeb.removeEventListener(${0:name},${1:callback})"
-    },
-    {
-      "trigger": "Ti.UI.MobileWeb.setBubbleParent()",
-      "contents": "Ti.UI.MobileWeb.setBubbleParent(${0:bubbleParent})"
     },
     "Ti.Contacts",
     "Ti.Contacts.AUTHORIZATION_AUTHORIZED",
@@ -26124,16 +25155,10 @@
     "Ti.UI.iOS.CoverFlowView.anchorPoint",
     "Ti.UI.iOS.CoverFlowView.animatedCenter",
     "Ti.UI.iOS.CoverFlowView.backgroundColor",
-    "Ti.UI.iOS.CoverFlowView.backgroundDisabledColor",
-    "Ti.UI.iOS.CoverFlowView.backgroundDisabledImage",
-    "Ti.UI.iOS.CoverFlowView.backgroundFocusedColor",
-    "Ti.UI.iOS.CoverFlowView.backgroundFocusedImage",
     "Ti.UI.iOS.CoverFlowView.backgroundGradient",
     "Ti.UI.iOS.CoverFlowView.backgroundImage",
     "Ti.UI.iOS.CoverFlowView.backgroundLeftCap",
     "Ti.UI.iOS.CoverFlowView.backgroundRepeat",
-    "Ti.UI.iOS.CoverFlowView.backgroundSelectedColor",
-    "Ti.UI.iOS.CoverFlowView.backgroundSelectedImage",
     "Ti.UI.iOS.CoverFlowView.backgroundTopCap",
     "Ti.UI.iOS.CoverFlowView.borderColor",
     "Ti.UI.iOS.CoverFlowView.borderRadius",
@@ -26142,11 +25167,9 @@
     "Ti.UI.iOS.CoverFlowView.bubbleParent",
     "Ti.UI.iOS.CoverFlowView.center",
     "Ti.UI.iOS.CoverFlowView.children",
-    "Ti.UI.iOS.CoverFlowView.focusable",
     "Ti.UI.iOS.CoverFlowView.height",
     "Ti.UI.iOS.CoverFlowView.horizontalWrap",
     "Ti.UI.iOS.CoverFlowView.images",
-    "Ti.UI.iOS.CoverFlowView.keepScreenOn",
     "Ti.UI.iOS.CoverFlowView.layout",
     "Ti.UI.iOS.CoverFlowView.left",
     "Ti.UI.iOS.CoverFlowView.opacity",
@@ -26154,7 +25177,6 @@
     "Ti.UI.iOS.CoverFlowView.right",
     "Ti.UI.iOS.CoverFlowView.selected",
     "Ti.UI.iOS.CoverFlowView.size",
-    "Ti.UI.iOS.CoverFlowView.softKeyboardOnFocus",
     "Ti.UI.iOS.CoverFlowView.top",
     "Ti.UI.iOS.CoverFlowView.touchEnabled",
     "Ti.UI.iOS.CoverFlowView.transform",
@@ -26218,22 +25240,6 @@
       "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundColor()"
     },
     {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundDisabledColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundDisabledImage()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundFocusedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundFocusedImage()"
-    },
-    {
       "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundGradient()",
       "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundGradient()"
     },
@@ -26248,14 +25254,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundRepeat()",
       "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundRepeat()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundSelectedColor()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getBackgroundSelectedImage()"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getBackgroundTopCap()",
@@ -26290,10 +25288,6 @@
       "contents": "Ti.UI.iOS.CoverFlowView.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getFocusable()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iOS.CoverFlowView.getHeight()",
       "contents": "Ti.UI.iOS.CoverFlowView.getHeight()"
     },
@@ -26304,10 +25298,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getImages()",
       "contents": "Ti.UI.iOS.CoverFlowView.getImages()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getKeepScreenOn()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getLayout()",
@@ -26336,10 +25326,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getSize()",
       "contents": "Ti.UI.iOS.CoverFlowView.getSize()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.getSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.CoverFlowView.getSoftKeyboardOnFocus()"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.getTop()",
@@ -26402,22 +25388,6 @@
       "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundColor(${0:backgroundColor})"
     },
     {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundDisabledColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundDisabledColor(${0:backgroundDisabledColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundDisabledImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundDisabledImage(${0:backgroundDisabledImage})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundFocusedColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundFocusedColor(${0:backgroundFocusedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundFocusedImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundFocusedImage(${0:backgroundFocusedImage})"
-    },
-    {
       "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundGradient()",
       "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundGradient(${0:backgroundGradient})"
     },
@@ -26432,14 +25402,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundRepeat()",
       "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundRepeat(${0:backgroundRepeat})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundSelectedColor()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundSelectedColor(${0:backgroundSelectedColor})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundSelectedImage()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setBackgroundSelectedImage(${0:backgroundSelectedImage})"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setBackgroundTopCap()",
@@ -26470,10 +25432,6 @@
       "contents": "Ti.UI.iOS.CoverFlowView.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setFocusable()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iOS.CoverFlowView.setHeight()",
       "contents": "Ti.UI.iOS.CoverFlowView.setHeight(${0:height})"
     },
@@ -26488,10 +25446,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setImages()",
       "contents": "Ti.UI.iOS.CoverFlowView.setImages(${0:images})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setKeepScreenOn()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setLayout()",
@@ -26512,10 +25466,6 @@
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setSelected()",
       "contents": "Ti.UI.iOS.CoverFlowView.setSelected(${0:selected})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.CoverFlowView.setSoftKeyboardOnFocus()",
-      "contents": "Ti.UI.iOS.CoverFlowView.setSoftKeyboardOnFocus(${0:softKeyboardOnFocus})"
     },
     {
       "trigger": "Ti.UI.iOS.CoverFlowView.setTop()",
@@ -31132,11 +30082,9 @@
     "Ti.UI.iOS.Toolbar.bubbleParent",
     "Ti.UI.iOS.Toolbar.center",
     "Ti.UI.iOS.Toolbar.children",
-    "Ti.UI.iOS.Toolbar.focusable",
     "Ti.UI.iOS.Toolbar.height",
     "Ti.UI.iOS.Toolbar.horizontalWrap",
     "Ti.UI.iOS.Toolbar.items",
-    "Ti.UI.iOS.Toolbar.keepScreenOn",
     "Ti.UI.iOS.Toolbar.left",
     "Ti.UI.iOS.Toolbar.opacity",
     "Ti.UI.iOS.Toolbar.rect",
@@ -31250,10 +30198,6 @@
       "contents": "Ti.UI.iOS.Toolbar.getChildren()"
     },
     {
-      "trigger": "Ti.UI.iOS.Toolbar.getFocusable()",
-      "contents": "Ti.UI.iOS.Toolbar.getFocusable()"
-    },
-    {
       "trigger": "Ti.UI.iOS.Toolbar.getHeight()",
       "contents": "Ti.UI.iOS.Toolbar.getHeight()"
     },
@@ -31264,10 +30208,6 @@
     {
       "trigger": "Ti.UI.iOS.Toolbar.getItems()",
       "contents": "Ti.UI.iOS.Toolbar.getItems()"
-    },
-    {
-      "trigger": "Ti.UI.iOS.Toolbar.getKeepScreenOn()",
-      "contents": "Ti.UI.iOS.Toolbar.getKeepScreenOn()"
     },
     {
       "trigger": "Ti.UI.iOS.Toolbar.getLeft()",
@@ -31394,10 +30334,6 @@
       "contents": "Ti.UI.iOS.Toolbar.setCenter(${0:center})"
     },
     {
-      "trigger": "Ti.UI.iOS.Toolbar.setFocusable()",
-      "contents": "Ti.UI.iOS.Toolbar.setFocusable(${0:focusable})"
-    },
-    {
       "trigger": "Ti.UI.iOS.Toolbar.setHeight()",
       "contents": "Ti.UI.iOS.Toolbar.setHeight(${0:height})"
     },
@@ -31408,10 +30344,6 @@
     {
       "trigger": "Ti.UI.iOS.Toolbar.setItems()",
       "contents": "Ti.UI.iOS.Toolbar.setItems(${0:items})"
-    },
-    {
-      "trigger": "Ti.UI.iOS.Toolbar.setKeepScreenOn()",
-      "contents": "Ti.UI.iOS.Toolbar.setKeepScreenOn(${0:keepScreenOn})"
     },
     {
       "trigger": "Ti.UI.iOS.Toolbar.setLeft()",
