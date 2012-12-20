@@ -3,8 +3,9 @@
 Only tested on MacOSX so far.
 
 ### Features
- * Run iPhone Simulator / Android Emulator
- * Compile MobileWeb (you need to run via Titanium Studio)
+ * Run iPhone / iPad Simulator
+ * Run Android Emulator / Android Device
+ * Compile + Build MobileWeb (you need to run via Titanium Studio)
  * Clean Build Directories
  * Snippets
  * Auto-Completion
