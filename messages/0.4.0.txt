@@ -1,0 +1,4 @@
+Added support for TSS Syntax highlighting and Auto-completions.
+Credits for this goes to AoDev https://github.com/AoDev/ti-alloy-in-sublime-text-2 
+
+Thx!
