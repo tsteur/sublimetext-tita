@@ -8,7 +8,8 @@ Only tested on MacOSX so far.
  * Compile + Build MobileWeb (you need to run at least once via Titanium Studio)
  * Clean Build Directories
  * Snippets
- * Auto-Completion
+ * Auto-completion
+ * TSS Syntax highlighting and Auto-completions (Credits goes to AoDev https://github.com/AoDev/ti-alloy-in-sublime-text-2 Thx!)
 
 ### Installation
 
