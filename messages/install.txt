@@ -7,8 +7,9 @@ Readme:
 https://github.com/tsteur/sublimetext-tita
 
 Features:
-* Run iPhone Simulator / Android Emulator
-* Compile MobileWeb (you need to run via Titanium Studio)
+* Run iPhone / iPad Simulator
+* Run Android Emulator / Device
+* Compile + Build MobileWeb (you need to run at least once via Titanium Studio)
 * Clean Build Directories
 * Snippets
 * Auto-Completion

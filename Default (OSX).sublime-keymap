@@ -1,12 +1,18 @@
 [
     {
-        "keys": ["super+alt+i"], "command": "tita", "args": {"device": "iphone"} 
+        "keys": ["super+alt+i"], "command": "tita", "args": {"device": "iphone", "target": "simulator"} 
     },
     {
-        "keys": ["super+alt+a"], "command": "tita", "args": {"device": "android"} 
+        "keys": ["super+alt+p"], "command": "tita", "args": {"device": "ipad", "target": "simulator"} 
     },
     {
-        "keys": ["super+alt+m"], "command": "tita", "args": {"device": "mobileweb"} 
+        "keys": ["super+alt+a"], "command": "tita", "args": {"device": "android", "target": "emulator"} 
+    },
+    {
+        "keys": ["super+alt+d"], "command": "tita", "args": {"device": "android", "target": "device"} 
+    },
+    {
+        "keys": ["super+alt+m"], "command": "tita", "args": {"device": "mobileweb", "target": ""} 
     },
     {
         "keys": ["super+alt+g"], "command": "titagenerate" 
