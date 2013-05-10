@@ -40,7 +40,7 @@ You need Titanium CLI + Alloy:
  * To use snippets just start typing "alloy"
 
 ### Troubleshooting
-* Getting an error like "[Decode error - output not utf-8]"? Adjust encoding in Tita User-Settings.
+* Getting an error like `[Decode error - output not utf-8]`? Adjust encoding in Tita User-Settings.
 
 ### TODO
  * Run on iOS device
