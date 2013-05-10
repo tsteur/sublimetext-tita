@@ -14,6 +14,7 @@ Features:
 * Snippets
 * Auto-Completion
 * TSS Syntax highlighting and Auto-completions (Credits goes to AoDev https://github.com/AoDev/ti-alloy-in-sublime-text-2 Thx!)
+ * Triggers Clean Build when changing tiapp.xml
 
 Please direct any feedback to:
 * https://github.com/tsteur/sublimetext-tita
