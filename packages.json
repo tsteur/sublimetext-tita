@@ -6,12 +6,12 @@
             "description": "Plugin for Titanium Mobile / Alloy Development",
             "author": "Thomas Steur",
             "homepage": "https://github.com/tsteur/sublimetext-tita",
-            "last_modified": "2013-05-10 12:50:40",
+            "last_modified": "2013-05-10 15:27:40",
             "platforms": {
                 "osx": [
                     {
-                        "version": "0.6.0",
-                        "url": "https://nodeload.github.com/tsteur/sublimetext-tita/zip/v0.6"
+                        "version": "0.7.0",
+                        "url": "https://nodeload.github.com/tsteur/sublimetext-tita/zip/v0.7"
                     }
                 ]
             }
