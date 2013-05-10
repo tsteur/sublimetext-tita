@@ -11,6 +11,7 @@ class TitaAutoClean(sublime_plugin.EventListener):
         if 'tiapp.xml' in current_file:
             view.window().run_command('titaclean')
 
+
 class BaseCommand(sublime_plugin.WindowCommand):
     def root(self):
         return self.window.folders()[0]
@@ -23,6 +24,9 @@ class BaseCommand(sublime_plugin.WindowCommand):
         exec_args = self.settings().get('exec_args')
         exec_args.update(command)
         self.window.run_command("exec", exec_args)
+
+    def show_quick_panel(self, options, done):
+        sublime.set_timeout(lambda: self.window.show_quick_panel(options, done), 10)
 
 
 class Titaclean(BaseCommand):
@@ -40,6 +44,23 @@ class Titagenerate(BaseCommand):
 
     def run(self, *args, **kwargs):
         self.window.show_input_panel("alloy generate ", "", self.on_done, None, None)
+
+
+class Titalint(BaseCommand):
+    osNames = ["android", "iphone", "ipad", "mobileweb"]
+
+    def on_done(self, selectedIndex):
+        if selectedIndex < 0:
+            return
+
+        osName = self.osNames[selectedIndex]
+        sublime.status_message('Run Titanium Code Processor')
+        cmd = u"titanium-code-processor analyze --osname %s --all-plugins" % (osName)
+        self.exec_command(cmd)
+
+    def run(self, *args, **kwargs):
+        print "run"
+        self.show_quick_panel(self.osNames, self.on_done)
 
 
 class TitaCommand(BaseCommand):

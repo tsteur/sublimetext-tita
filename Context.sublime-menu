@@ -51,6 +51,10 @@
         { 
           "command": "titaclean", 
           "caption": "Clean Build Directories"
+        },
+        { 
+          "command": "titalint", 
+          "caption": "Analyze (Titanium-Code-Processor)"
         }
     ]
 }

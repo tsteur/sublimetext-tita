@@ -19,5 +19,8 @@
     },
     {
         "keys": ["super+alt+c"], "command": "titaclean" 
+    },
+    {
+        "keys": ["super+alt+l"], "command": "titalint" 
     }
 ]

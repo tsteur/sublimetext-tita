@@ -19,5 +19,8 @@
     },
     {
         "caption": "Titanium - Clean Build Directories", "command": "titaclean" 
+    },
+    {
+        "caption": "Titanium - Analyze (Titanium-Code-Processor)", "command": "titalint" 
     }
 ]
