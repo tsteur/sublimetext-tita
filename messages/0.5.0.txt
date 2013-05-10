@@ -1,0 +1,5 @@
+Changes:
+
+* Improved auto completion (JS + TSS)
+* Automatically clean build directories if tiapp.xml changes
+* Fixed "Clean Build Directories" not working
