@@ -11,7 +11,7 @@ Only tested on MacOSX so far.
  * Auto-completion
  * TSS Syntax highlighting and Auto-completions (Credits goes to AoDev https://github.com/AoDev/ti-alloy-in-sublime-text-2 Thx!)
  * Triggers Clean Build when changing tiapp.xml
- * Use Titanium-Code-Processor
+ * Analyze code using Titanium-Code-Processor
 
 ### Installation
 
@@ -38,6 +38,9 @@ You need Titanium CLI + Alloy:
  * `super+alt+c` Clean Build Directories
  * `super+alt+l` Analyze (Titanium Code Processor)
  * To use snippets just start typing "alloy"
+
+### Troubleshooting
+* Getting an error like "[Decode error - output not utf-8]"? Adjust encoding in Tita User-Settings.
 
 ### TODO
  * Run on iOS device

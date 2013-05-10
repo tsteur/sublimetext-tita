@@ -1,6 +1,7 @@
 {
     "exec_args": {
-        "path": "/bin:/usr/bin:/usr/local/bin:/usr/local/lib/node_modules/"
+        "path": "/bin:/usr/bin:/usr/local/bin:/usr/local/lib/node_modules/",
+        "encoding": "utf-8"
     },
     "android_sdk_path": "",
     "alloy": {
