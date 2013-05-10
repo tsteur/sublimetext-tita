@@ -55,7 +55,8 @@ class Titalint(BaseCommand):
 
         osName = self.osNames[selectedIndex]
         sublime.status_message('Run Titanium Code Processor')
-        cmd = u"titanium-code-processor analyze --osname %s --all-plugins" % (osName)
+        removecolors = "col -b"
+        cmd = u"titanium-code-processor analyze --osname %s --all-plugins | %s" % (osName, removecolors)
         self.exec_command(cmd)
 
     def run(self, *args, **kwargs):
