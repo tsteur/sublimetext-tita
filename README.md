@@ -10,6 +10,7 @@ Only tested on MacOSX so far.
  * Snippets
  * Auto-completion
  * TSS Syntax highlighting and Auto-completions (Credits goes to AoDev https://github.com/AoDev/ti-alloy-in-sublime-text-2 Thx!)
+ * Triggers Clean Build when changing tiapp.xml
 
 ### Installation
 
@@ -39,7 +40,6 @@ You need Titanium CLI + Alloy:
 ### TODO
  * Run on iOS device
  * Add Titanium-Code-Processor
- * Trigger Clean Build when changing tiapp.xml
 
 ### How to update sublime-completions
 Auto-Completion file is generated using this PHP snippet: https://gist.github.com/4244185
