@@ -3,6 +3,14 @@ import desktop
 import os
 
 
+class TitaAutoClean(sublime_plugin.EventListener):
+
+    def on_post_save(self, view):
+        current_file = view.file_name()
+
+        if 'tiapp.xml' in current_file:
+            view.window().run_command('titaclean')
+
 class BaseCommand(sublime_plugin.WindowCommand):
     def root(self):
         return self.window.folders()[0]
@@ -21,7 +29,7 @@ class Titaclean(BaseCommand):
 
     def run(self, *args, **kwargs):
         sublime.status_message('Clean build directories')
-        exec_command(u"titanium clean", self.root(), self.window)
+        self.exec_command(u"titanium clean")
 
 
 class Titagenerate(BaseCommand):
