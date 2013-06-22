@@ -40,6 +40,7 @@ You need Titanium CLI + Alloy:
  * To use snippets just start typing "alloy"
 
 ### Troubleshooting
+* Not able to run on Android? Execute `titanium setup` once and enter correct Android SDK Path
 * Getting an error like `[Decode error - output not utf-8]`? Adjust encoding in Tita User-Settings.
 
 ### TODO
