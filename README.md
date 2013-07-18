@@ -1,3 +1,11 @@
+### *** This plugin is no longer actively maintained ***
+
+Because I'm no longer using ST2 / ST3. Is someone interested to fork and maintain it? 
+
+Alternative plugins:
+ * https://github.com/MattTuttle/sublime-ti-build
+ * https://github.com/AoDev/ti-alloy-in-sublime-text-2
+
 ### Tita - Titanium Mobile / Alloy Framework - Sublime Text 2 Plugin
 
 Only tested on MacOSX so far.
